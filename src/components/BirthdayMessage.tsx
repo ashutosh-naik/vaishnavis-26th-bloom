@@ -1,15 +1,23 @@
-import { Gift, Flower2, Heart } from 'lucide-react';
-import decorativeFlowers from '@/assets/decorative-flowers.jpg';
+import { Gift, Flower2, Heart } from "lucide-react";
+import decorativeFlowers from "@/assets/decorative-flowers.jpg";
 
 export const BirthdayMessage = () => {
   return (
     <section className="py-20 px-6 bg-gradient-soft relative overflow-hidden">
       {/* Decorative Background Elements */}
       <div className="absolute top-10 left-10 opacity-30">
-        <img src={decorativeFlowers} alt="" className="w-32 h-32 object-cover rounded-full animate-float" />
+        <img
+          src={decorativeFlowers}
+          alt=""
+          className="w-32 h-32 object-cover rounded-full animate-float"
+        />
       </div>
       <div className="absolute bottom-10 right-10 opacity-30">
-        <img src={decorativeFlowers} alt="" className="w-40 h-40 object-cover rounded-full animate-pulse-soft" />
+        <img
+          src={decorativeFlowers}
+          alt=""
+          className="w-40 h-40 object-cover rounded-full animate-pulse-soft"
+        />
       </div>
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
@@ -26,10 +34,10 @@ export const BirthdayMessage = () => {
 
           <div className="space-y-6 text-lg md:text-xl text-foreground leading-relaxed">
             <p className="italic">
-              "Here's to more laughter, late-night talks, and flower-filled memories. 
-              Happy Birthday once again 💐💖"
+              "Here's to more laughter, late-night talks, and flower-filled
+              memories. Happy Birthday once again 💐💖"
             </p>
-            
+
             <div className="border-t border-border/30 pt-6">
               <p className="font-medium">
                 May this new year of your life be filled with:
@@ -43,12 +51,16 @@ export const BirthdayMessage = () => {
                 <div className="bg-lavender p-4 rounded-xl text-card-foreground">
                   <strong>Beautiful Moments</strong>
                   <br />
-                  <span className="text-sm opacity-90">To treasure forever</span>
+                  <span className="text-sm opacity-90">
+                    To treasure forever
+                  </span>
                 </div>
                 <div className="bg-mint p-4 rounded-xl text-card-foreground">
                   <strong>Dreams Come True</strong>
                   <br />
-                  <span className="text-sm opacity-90">All your heart desires</span>
+                  <span className="text-sm opacity-90">
+                    All your heart desires
+                  </span>
                 </div>
               </div>
             </div>
