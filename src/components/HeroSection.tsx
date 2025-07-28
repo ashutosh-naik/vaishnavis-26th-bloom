@@ -63,6 +63,9 @@ export const HeroSection = () => {
           <div className="flex flex-col items-center mb-8">
             <div className="flex flex-col items-center space-y-1">
               <span className="text-2xl font-bold text-[#2d1a23]">
+                <span className="text-xl font-semibold text-[#2d1a23]">
+                  Since we met...{" "}
+                </span>
                 {elapsed.days} days {elapsed.hours} hrs {elapsed.minutes} min
               </span>
               <span className="text-2xl font-bold text-[#2d1a23]">
